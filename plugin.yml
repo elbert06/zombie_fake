@@ -1,0 +1,7 @@
+name: zombie
+main: com.elbert.zombie.Main
+api-version: 1.16
+version: 1.0
+commands:
+  one:
+  diamond:
