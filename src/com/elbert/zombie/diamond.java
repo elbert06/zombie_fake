@@ -36,7 +36,7 @@ public class diamond implements CommandExecutor{
 					Location trace_b = new Location(s.getWorld(),x,y,z);
 					Material sr = trace_b.getBlock().getType();
 					if (sr.equals(Material.DIAMOND_ORE)) {
-						s.sendMessage("´ÙÀÌ¾Æ ÀÇ À§Ä¡´Â" + Integer.toString(x) +" "+Integer.toString(y) + " "+Integer.toString(z));
+						s.sendMessage("ë‹¤ì´ì•„ ì˜ ìœ„ì¹˜ëŠ”" + Integer.toString(x) +" "+Integer.toString(y) + " "+Integer.toString(z));
 						return false;
 					}
 					z++;
@@ -45,7 +45,7 @@ public class diamond implements CommandExecutor{
 			}
 			x++;
 		}
-		s.sendMessage("ÀÌÃ»Å©¿¡´Â ´ÙÀÌ¾Æ°¡ ¾ø½À´Ï´Ù");
+		s.sendMessage("ì£¼ìœ„ 16ì¹¸ì—ëŠ” ë‹¤ì´ì•„ê°€ ì—†ìŠµë‹ˆë‹¤");
 		return false;
 	}
 	
